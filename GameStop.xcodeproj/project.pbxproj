@@ -13,23 +13,12 @@
 		86447ECA1EB0A05B00A2CFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86447EC81EB0A05B00A2CFA5 /* Main.storyboard */; };
 		86447ECC1EB0A05B00A2CFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86447ECB1EB0A05B00A2CFA5 /* Assets.xcassets */; };
 		86447ECF1EB0A05B00A2CFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86447ECD1EB0A05B00A2CFA5 /* LaunchScreen.storyboard */; };
-		86447EDA1EB0A05B00A2CFA5 /* GameStopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86447ED91EB0A05B00A2CFA5 /* GameStopTests.swift */; };
 		86C2F6CF1EB60A59000F6ABE /* AddCus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6CE1EB60A59000F6ABE /* AddCus.swift */; };
 		86C2F6D11EB60B35000F6ABE /* CusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6D01EB60B35000F6ABE /* CusView.swift */; };
 		86C2F6D31EB60B83000F6ABE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6D21EB60B83000F6ABE /* Order.swift */; };
 		86C2F6D51EB60BB6000F6ABE /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6D41EB60BB6000F6ABE /* Products.swift */; };
 		86C2F6D71EB60BC9000F6ABE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6D61EB60BC9000F6ABE /* Location.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		86447ED61EB0A05B00A2CFA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 86447EB91EB0A05B00A2CFA5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86447EC01EB0A05B00A2CFA5;
-			remoteInfo = GameStop;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3EA436D41EBCBCB400BD25C1 /* CusInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CusInfo.swift; sourceTree = "<group>"; };
@@ -40,9 +29,6 @@
 		86447ECB1EB0A05B00A2CFA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86447ECE1EB0A05B00A2CFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86447ED01EB0A05B00A2CFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86447ED51EB0A05B00A2CFA5 /* GameStopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameStopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		86447ED91EB0A05B00A2CFA5 /* GameStopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStopTests.swift; sourceTree = "<group>"; };
-		86447EDB1EB0A05B00A2CFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86C2F6CE1EB60A59000F6ABE /* AddCus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCus.swift; sourceTree = "<group>"; };
 		86C2F6D01EB60B35000F6ABE /* CusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CusView.swift; sourceTree = "<group>"; };
 		86C2F6D21EB60B83000F6ABE /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
@@ -58,13 +44,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86447ED21EB0A05B00A2CFA5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				86447EC31EB0A05B00A2CFA5 /* GameStop */,
-				86447ED81EB0A05B00A2CFA5 /* GameStopTests */,
 				86447EC21EB0A05B00A2CFA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				86447EC11EB0A05B00A2CFA5 /* GameStop.app */,
-				86447ED51EB0A05B00A2CFA5 /* GameStopTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,15 +82,6 @@
 			path = GameStop;
 			sourceTree = "<group>";
 		};
-		86447ED81EB0A05B00A2CFA5 /* GameStopTests */ = {
-			isa = PBXGroup;
-			children = (
-				86447ED91EB0A05B00A2CFA5 /* GameStopTests.swift */,
-				86447EDB1EB0A05B00A2CFA5 /* Info.plist */,
-			);
-			path = GameStopTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,24 +102,6 @@
 			productReference = 86447EC11EB0A05B00A2CFA5 /* GameStop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		86447ED41EB0A05B00A2CFA5 /* GameStopTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 86447EE11EB0A05B00A2CFA5 /* Build configuration list for PBXNativeTarget "GameStopTests" */;
-			buildPhases = (
-				86447ED11EB0A05B00A2CFA5 /* Sources */,
-				86447ED21EB0A05B00A2CFA5 /* Frameworks */,
-				86447ED31EB0A05B00A2CFA5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				86447ED71EB0A05B00A2CFA5 /* PBXTargetDependency */,
-			);
-			name = GameStopTests;
-			productName = GameStopTests;
-			productReference = 86447ED51EB0A05B00A2CFA5 /* GameStopTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,11 +115,6 @@
 					86447EC01EB0A05B00A2CFA5 = {
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Manual;
-					};
-					86447ED41EB0A05B00A2CFA5 = {
-						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 86447EC01EB0A05B00A2CFA5;
 					};
 				};
 			};
@@ -187,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				86447EC01EB0A05B00A2CFA5 /* GameStop */,
-				86447ED41EB0A05B00A2CFA5 /* GameStopTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,13 +144,6 @@
 				86447ECF1EB0A05B00A2CFA5 /* LaunchScreen.storyboard in Resources */,
 				86447ECC1EB0A05B00A2CFA5 /* Assets.xcassets in Resources */,
 				86447ECA1EB0A05B00A2CFA5 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86447ED31EB0A05B00A2CFA5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,23 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86447ED11EB0A05B00A2CFA5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86447EDA1EB0A05B00A2CFA5 /* GameStopTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		86447ED71EB0A05B00A2CFA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 86447EC01EB0A05B00A2CFA5 /* GameStop */;
-			targetProxy = 86447ED61EB0A05B00A2CFA5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		86447EC81EB0A05B00A2CFA5 /* Main.storyboard */ = {
@@ -389,34 +310,6 @@
 			};
 			name = Release;
 		};
-		86447EE21EB0A05B00A2CFA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = GameStopTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = app.GameStopTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameStop.app/GameStop";
-			};
-			name = Debug;
-		};
-		86447EE31EB0A05B00A2CFA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = GameStopTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = app.GameStopTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameStop.app/GameStop";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,15 +327,6 @@
 			buildConfigurations = (
 				86447EDF1EB0A05B00A2CFA5 /* Debug */,
 				86447EE01EB0A05B00A2CFA5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		86447EE11EB0A05B00A2CFA5 /* Build configuration list for PBXNativeTarget "GameStopTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86447EE21EB0A05B00A2CFA5 /* Debug */,
-				86447EE31EB0A05B00A2CFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
