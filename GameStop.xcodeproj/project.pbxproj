@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA436D51EBCBCB400BD25C1 /* CusInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA436D41EBCBCB400BD25C1 /* CusInfo.swift */; };
 		86447EC51EB0A05B00A2CFA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86447EC41EB0A05B00A2CFA5 /* AppDelegate.swift */; };
 		86447EC71EB0A05B00A2CFA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86447EC61EB0A05B00A2CFA5 /* ViewController.swift */; };
 		86447ECA1EB0A05B00A2CFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86447EC81EB0A05B00A2CFA5 /* Main.storyboard */; };
@@ -18,11 +19,6 @@
 		86C2F6D31EB60B83000F6ABE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6D21EB60B83000F6ABE /* Order.swift */; };
 		86C2F6D51EB60BB6000F6ABE /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6D41EB60BB6000F6ABE /* Products.swift */; };
 		86C2F6D71EB60BC9000F6ABE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6D61EB60BC9000F6ABE /* Location.swift */; };
-		86C2F6D91EB60C4C000F6ABE /* CusInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2F6D81EB60C4C000F6ABE /* CusInfo.swift */; };
-		86C2F6E11EB624B7000F6ABE /* gamestoplogo_blackred.png in Resources */ = {isa = PBXBuildFile; fileRef = 86C2F6E01EB624B7000F6ABE /* gamestoplogo_blackred.png */; };
-		86C2F6E31EB624F5000F6ABE /* callofduty.png in Resources */ = {isa = PBXBuildFile; fileRef = 86C2F6E21EB624F5000F6ABE /* callofduty.png */; };
-		86C2F6E51EB62500000F6ABE /* fifa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86C2F6E41EB62500000F6ABE /* fifa.jpg */; };
-		86C2F6E71EB6250C000F6ABE /* GTA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86C2F6E61EB6250C000F6ABE /* GTA.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EA436D41EBCBCB400BD25C1 /* CusInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CusInfo.swift; sourceTree = "<group>"; };
 		86447EC11EB0A05B00A2CFA5 /* GameStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86447EC41EB0A05B00A2CFA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86447EC61EB0A05B00A2CFA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,11 +48,6 @@
 		86C2F6D21EB60B83000F6ABE /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		86C2F6D41EB60BB6000F6ABE /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		86C2F6D61EB60BC9000F6ABE /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		86C2F6D81EB60C4C000F6ABE /* CusInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CusInfo.swift; sourceTree = "<group>"; };
-		86C2F6E01EB624B7000F6ABE /* gamestoplogo_blackred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gamestoplogo_blackred.png; path = ../../sara/gamestoplogo_blackred.png; sourceTree = "<group>"; };
-		86C2F6E21EB624F5000F6ABE /* callofduty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = callofduty.png; path = ../../sara/callofduty.png; sourceTree = "<group>"; };
-		86C2F6E41EB62500000F6ABE /* fifa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fifa.jpg; path = ../../sara/fifa.jpg; sourceTree = "<group>"; };
-		86C2F6E61EB6250C000F6ABE /* GTA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GTA.jpg; path = ../../sara/GTA.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +71,6 @@
 		86447EB81EB0A05B00A2CFA5 = {
 			isa = PBXGroup;
 			children = (
-				86C2F6D81EB60C4C000F6ABE /* CusInfo.swift */,
 				86447EC31EB0A05B00A2CFA5 /* GameStop */,
 				86447ED81EB0A05B00A2CFA5 /* GameStopTests */,
 				86447EC21EB0A05B00A2CFA5 /* Products */,
@@ -98,21 +89,18 @@
 		86447EC31EB0A05B00A2CFA5 /* GameStop */ = {
 			isa = PBXGroup;
 			children = (
-				86C2F6E61EB6250C000F6ABE /* GTA.jpg */,
-				86C2F6E41EB62500000F6ABE /* fifa.jpg */,
-				86C2F6E21EB624F5000F6ABE /* callofduty.png */,
-				86C2F6E01EB624B7000F6ABE /* gamestoplogo_blackred.png */,
 				86447EC41EB0A05B00A2CFA5 /* AppDelegate.swift */,
 				86447EC61EB0A05B00A2CFA5 /* ViewController.swift */,
 				86C2F6D01EB60B35000F6ABE /* CusView.swift */,
 				86C2F6D21EB60B83000F6ABE /* Order.swift */,
 				86C2F6D41EB60BB6000F6ABE /* Products.swift */,
 				86C2F6D61EB60BC9000F6ABE /* Location.swift */,
-				86447EC81EB0A05B00A2CFA5 /* Main.storyboard */,
 				86C2F6CE1EB60A59000F6ABE /* AddCus.swift */,
-				86447ECB1EB0A05B00A2CFA5 /* Assets.xcassets */,
-				86447ECD1EB0A05B00A2CFA5 /* LaunchScreen.storyboard */,
+				3EA436D41EBCBCB400BD25C1 /* CusInfo.swift */,
 				86447ED01EB0A05B00A2CFA5 /* Info.plist */,
+				86447EC81EB0A05B00A2CFA5 /* Main.storyboard */,
+				86447ECD1EB0A05B00A2CFA5 /* LaunchScreen.storyboard */,
+				86447ECB1EB0A05B00A2CFA5 /* Assets.xcassets */,
 			);
 			path = GameStop;
 			sourceTree = "<group>";
@@ -176,7 +164,7 @@
 				TargetAttributes = {
 					86447EC01EB0A05B00A2CFA5 = {
 						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					86447ED41EB0A05B00A2CFA5 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -209,10 +197,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C2F6E11EB624B7000F6ABE /* gamestoplogo_blackred.png in Resources */,
-				86C2F6E51EB62500000F6ABE /* fifa.jpg in Resources */,
-				86C2F6E71EB6250C000F6ABE /* GTA.jpg in Resources */,
-				86C2F6E31EB624F5000F6ABE /* callofduty.png in Resources */,
 				86447ECF1EB0A05B00A2CFA5 /* LaunchScreen.storyboard in Resources */,
 				86447ECC1EB0A05B00A2CFA5 /* Assets.xcassets in Resources */,
 				86447ECA1EB0A05B00A2CFA5 /* Main.storyboard in Resources */,
@@ -240,7 +224,7 @@
 				86C2F6D11EB60B35000F6ABE /* CusView.swift in Sources */,
 				86C2F6CF1EB60A59000F6ABE /* AddCus.swift in Sources */,
 				86C2F6D71EB60BC9000F6ABE /* Location.swift in Sources */,
-				86C2F6D91EB60C4C000F6ABE /* CusInfo.swift in Sources */,
+				3EA436D51EBCBCB400BD25C1 /* CusInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GameStop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -394,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GameStop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
